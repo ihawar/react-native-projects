@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "سلام",
+    "slug": "hello",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ihawar.hello"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ihawar.hello"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "306f7eb4-d240-4a75-a68c-217d3121b141"
+      }
+    }
+  }
+}
