@@ -1,7 +1,9 @@
 # React Native Learning!
+
 This repo contains some small projects that I have developed in my journey of learning React Native.
 
 ## Using
+
 ```bash
 git clone <project_url>
 
@@ -17,11 +19,13 @@ npm run start
 npx expo start
 
 #‌ build using eas
-npm install -f eas-cli
+npm install -g eas-cli # install eas cli tool
 
-eas login
+eas login # login to our account
 
-eas build:configure
+eas build:configure #‌create eas.json file
 
 eas build
+# or
+eas build -p android --profile preview #‌ to build a .apk file
 ```
